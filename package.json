@@ -1,0 +1,29 @@
+{
+  "name": "yasna-challange",
+  "version": "0.0.1",
+  "description": "yasna challange",
+  "productName": "yasna",
+  "author": "Iman Azimi <iman.aziimi2021@gmail.com>",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/test-utils": "^3.6.2",
+    "@types/node": "^18",
+    "nuxt": "^3.6.2",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.4"
+  }
+}
